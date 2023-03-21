@@ -326,7 +326,7 @@ It's mostly a bunch of personal notes, probably incomplete. Feel free to query i
  - focus: preserve ActiveId/focus stack state, e.g. when opening a menu and close it, previously selected InputText() focus gets restored (#622)
 
  - inputs: we need an explicit flag about whether the platform window is focused, to be able to distinguish focused key releases vs alt-tabbing all release behaviors.
- - inputs: support track pad style scrolling & slider edit.
+ - inputs: support target pad style scrolling & slider edit.
  - inputs/io: backspace and arrows in the context of a text input could use system repeat rate.
  - inputs/io: clarify/standardize/expose repeat rate and repeat delays (#1808)
  - inputs/scrolling: support for smooth scrolling (#2462, #2569)
